@@ -41,7 +41,6 @@ A powerful and elegant web-based tool that allows users to **encrypt** and **dec
    pip install flask pycryptodome flask-cors
 
 ### 3. Run the Flask Server
-`bash
    python app.py
 
 ### 4. Open the Web App
