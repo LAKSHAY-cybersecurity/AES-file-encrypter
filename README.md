@@ -109,6 +109,6 @@ Change themes from the top navbar dropdown.
 
 ## Author
 
-* Built by Lakshay and Saiyyam
+* Built by **Lakshay and Saiyyam**
 
 ---
