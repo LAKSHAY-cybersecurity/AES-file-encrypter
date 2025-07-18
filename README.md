@@ -30,7 +30,6 @@ A powerful and elegant web-based tool that allows users to **encrypt** and **dec
 ## 📦 Setup Instructions
 
 ### 1. Clone the Repository
-`bash
    git clone https://github.com/your-username/aes-encrypter.git
    cd aes-encrypter
 
