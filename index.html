@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <title>AES File Encrypter & Decrypter</title>
+</head>
+
+<body>
+  <div class="topbar">
+    <a href="index.html">
+      <h2>🔐 <span>SecureAES</span></h2>
+    </a>
+    <button class="theme-toggle-btn" id="themeToggleBtn">Theme</button>
+  </div>
+
+  <div class="container">
+    <h1>AES File Encrypter & Decrypter</h1>
+    <form id="fileForm">
+      <input type="file" id="fileInput" required />
+
+      <div class="toggle-password">
+        <input type="password" id="password" placeholder="Enter Password" required aria-label="Password" />
+        <button type="button" class="toggle-password-btn" aria-label="Toggle password visibility"
+          onclick="togglePassword()">👁️</button>
+      </div>
+
+      <div class="password-strength" id="passwordStrength"></div>
+      <div class="strength-bar">
+        <div class="strength-fill" id="strengthFill"></div>
+      </div>
+
+      <div class="radio-group">
+        <label><input type="radio" name="mode" value="encrypt" checked> Encrypt</label>
+        <label><input type="radio" name="mode" value="decrypt"> Decrypt</label>
+      </div>
+
+      <button type="submit">Process File</button>
+      <p class="message" id="message"></p>
+    </form>
+  </div>
+
+</body>
+
+</html>
